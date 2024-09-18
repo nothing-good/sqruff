@@ -33,7 +33,7 @@ jobs:
           node-version-file: ".nvmrc"
           cache: "pnpm"
       - name: Install Rust
-      - uses: dtolnay/rust-toolchain@nightly
+        uses: dtolnay/rust-toolchain@nightly
         with:
           components: rust-src
       - name: Install wasm-pack
