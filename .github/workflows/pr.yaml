@@ -11,7 +11,7 @@ env:
 jobs:
   check-licenses-readmes-match:
     name: Check licenses match
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - name: Copy LICENSE to editors/code directory
